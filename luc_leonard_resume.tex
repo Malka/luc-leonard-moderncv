@@ -1,0 +1,91 @@
+%% start of file `template.tex'.
+%% Copyright 2006-2010 Xavier Danaux (xdanaux@gmail.com).
+%% Copyright 2010-2011 Mark Liu (markwayneliu@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+\documentclass[11pt,a4paper,sans]{moderncv}
+
+\usepackage{verbatim}
+
+% moderncv themes
+\moderncvstyle{classic}
+\moderncvcolor{green}
+
+% character encoding
+\usepackage[utf8]{inputenc}                   % replace by the encoding you are using
+
+% adjust the page margins
+\usepackage[scale=0.8]{geometry}
+%\setlength{\hintscolumnwidth}{3cm}						% if you want to change the width of the column with the dates
+%\AtBeginDocument{\setlength{\maketitlenamewidth}{6cm}}  % only for the classic theme, if you want to change the width of your name placeholder (to leave more space for your address details
+%\AtBeginDocument{\recomputelengths}                     % required when changes are made to page layout lengths
+
+
+% personal data
+\firstname{Luc}
+\familyname{Leonard}
+%\address{20 tr}{(omitted for web)}    % optional, remove the line if not wanted
+\mobile{07 61 43 68 70}                    % optional, remove the line if not wanted
+\email{luc.leonard2@gmail.com}                      % optional, remove the line if not wanted
+%\homepage{http://markliu.me}                % optional, remove the line if not wanted
+%\extrainfo{\url{http://markliu.me}} % optional, remove the line if not wanted
+
+% to show numerical labels in the bibliography; only useful if you make citations in your resume
+%\makeatletter
+%\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+%\makeatother
+
+%\nopagenumbers{}                             % uncomment to suppress automatic page numbering for CVs longer than one page
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+\maketitle
+
+\section{Education}
+\cventry{2009--2014}{Expert en technologie de l'information}{Epitech}{}{}{}
+\cventry{2012--2013}{MSC Advanced Computer Science}{University of Kent in Canterbury}{Canterbury}{}{}
+
+\section{Experience}
+
+\cventry{mars 2015--courant}{Developpeur}{Numvision}{La Ciotat}{}{
+Developpement de solutions de synchronisation et d'envoi de fichiers.
+Developpement d'application web java (J2EE, Primefaces, Spring Boot).
+Developpement d'application mobiles (Apache Cordova).
+Developpement d'add-in Outlook.
+Developpement de plugins Thunderbird.
+}
+
+\cventry{2013--2014}{Developpeur}{CMA-CGM}{Marseille}{}{
+Developpement d'applications web SPA en javascript (ext-JS)
+}
+
+\cventry{mai 2012--aout 2012}{Developpeur}{Numvision}{La Ciotat}{}{
+Developpement d'un logiciel et d'une application web de synchronisation de fichiers
+}
+
+\cventry{2011--2012}{Assistant Epitech region}{EPITECH}{Marseille}{}{
+Organisation de TDs et de soutenances. Cours. Gestion de la logistique des journees portes ouvertes.
+}
+
+\cventry{juillet 2011--aout 2011}{Developpeur}{Gemalto}{La Ciotat}{}{
+Developpement d'un prototype de solution de partage de fichiers chiffres a l'aide d'une carte NFC
+}
+
+
+\section{Competences}
+\subsection{Maitrise}
+\cvline{languages}{C, C++, JavaScript, Java}
+\cvline{technologies}{Spring, Spring Security, Spring Boot, Apache Cordova, J2EE, Linux, FreeBSD, Nginx, SVN, git, bash}
+\subsection{Connait}
+\cvline{languages}{PHP, C#, OCaml, Python, Ruby, shell}
+\cvline{technologies}{Apache, Jenkins, Maven, ExtJS, Django}
+\section{Autre}
+\cventry{}{}{}{}{}{
+Backpacking, production musicale
+}
+
+\end{document}
